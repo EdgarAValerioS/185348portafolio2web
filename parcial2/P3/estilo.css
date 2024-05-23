@@ -1,0 +1,28 @@
+*{
+	text-decoration: none;
+}
+
+.texto{
+	background-color: orange;
+	width: 90px;
+	height: 30px;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 20px;
+	text-align: center;
+	font-family: arial;
+}
+
+.texto:hover{
+	background-color: darkorange;
+	color: black;
+	border-radius: 20px 50px;
+}
+
+.texto:active{
+	background-color: lightgreen;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 50px;
+	color: red;
+	font-family: roboto;
+}

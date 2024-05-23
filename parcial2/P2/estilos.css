@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+    border: none;
+    border-radius: 5px;
+}
+
+#contenedor{
+	justify-content: center;
+	display: flex;
+}
+
+#cont{
+	background-color: lightblue;
+	padding: 20px 40px; 
+
+}
+
+.llenar{
+	width: 700px;
+    height: 30px;
+    padding-left:5px;
+    margin-top: 5px;
+	text-align: left;
+}
+
+#enviar{
+    color: white;
+    width: 705px;
+    height: 30px;
+	text-align: center;
+	background-color: blue;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: darkblue;
+}
